@@ -1,0 +1,8 @@
+Jeffrey Holloway;Lodging_D;7;Mon May 25 23:50:46 CDT 2015
+Clifford Moran;Lodging_D;7;Fri Jul 12 02:57:26 CDT 2013
+Barry Jordan;Lodging_D;5;Sat Jan 19 11:17:26 CST 2013
+Pedro Griffin;Lodging_D;10;Thu Oct 18 22:04:06 CDT 2012
+Ervin Sanders;Lodging_D;3;Tue Sep 25 18:30:46 CDT 2012
+Hilda Bennett;Lodging_D;4;Sat Nov 16 09:30:46 CST 2013
+Horace Wood;Lodging_D;0;Sat Jul 05 22:04:06 CDT 2014
+Randolph Robertson;Lodging_D;8;Sun Mar 23 18:04:06 CDT 2014

@@ -1,0 +1,7 @@
+This package contain all you need about the P7_17.
+Running P7_17_TestCaseGenerator can create a file named TestCase.txt in the current path.
+The Entry is a public class for the input entry.
+P7_17 will take TestCase.txt as input, then process the data and output the result to the "output_for_P7_17" directory.
+
+The output_for_P7_17 contains results about the last test.
+You can delete the output_for_P7_17 directory and run P7_17 to justify the code.

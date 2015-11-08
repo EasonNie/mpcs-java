@@ -1,0 +1,73 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R1.5 The following are all benefits to using Java over machine code:
+1/ Java bytecode is platform independent and may be run on any system that has a JVM. This quality is known as portability.
+2/ Java JIT compilers can run efficient Java programs as fast or faster than machine code programs
+3/ Java is memory-managed. This reduces about 95% of runtime errors (mostly memory-related) as compared to unmanaged code.
+4/ Java was designed for networking and the Internet in mind; and it is generally safer than machine code
+
+R2.3 Translating math expressions to Java.  See R2.4 for inspiration.
+1. s = s0 + v0 * t + (1/2) * g * Math.pow(t, 2);
+2. G = 4 * Math.PI * Math.PI * Math.pow(a, 3) / (Math.pow(p, 2) * (m1 + m2))
+3. FV = PV * Math((1 + INT / 100), YRS);
+4. c = Math.sqrt(a * a + b * b - 2 * a * b * Math.cos(y));
+
+R2.6 Order of precedence, and integer division.
+a. 9
+b. 1
+c. 17
+d. 17.5
+e. 17
+f. 18
+
+R2.10 Formatting. Hint: DecimalFormat object.
+Because there may be some errors when calculating doubles due to the capacity of the computer.
+You should format the output.
+System.out.println(“%.2f”, change);
+
+R2.11 Types expressed in code
+2 is int
+2.0 is double
+‘2’ is char
+“2” is String
+“2.0” is String
+
+R2.15 Math library and the modulus (%) operator
+last digit is n % 10
+first digit is n / (int) Math.pow(10, (int) Math.log10(n))
+
+R3.18 Pseudocode
+//input grades
+//if 90 <= grades <= 100
+	//return A
+//else if 80 <= grades <= 89
+	//return B
+//else if 70 <= grades <= 79
+	//return C
+//else if 60 <= grades <= 69
+	//return D
+//else
+	//return F
+
+R4.9 Types of loops
+for loop:Groups the initialization, con­ditions, and update expressions together.
+while loop:As long as the condition is true, the body will be executed.
+do loop:The body will be executed at first and the check the condition after loop.
+
+R4.12 Pseudocode
+//print:Celsius | Fahrenheit
+//print:--------+-----------
+//for i from 0 to 10
+	//print:	i*10|	32+i*18
+
+R4.15 for/while
+int i = 1;
+int s = 0;
+while (i <= 10) {
+	s = s + i;
+	i++;
+}
+
+

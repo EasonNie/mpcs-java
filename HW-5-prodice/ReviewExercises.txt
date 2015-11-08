@@ -1,0 +1,56 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R10.5 Events
+Events object represent the events that happened during the runtime.
+Event listener objects contain the instructions that you want to have executed when the events occur.
+To install a listener, you need to know the event source. The event source is the user-interface component, such as a button, that generates a particular event.
+You add an event listener object to the appropriate event sources.
+
+R10.6 actionPerformed
+The object that implements ActionListener call the actionPerformed method, and the method is call when a Event is send to it.
+
+R10.11 Inner class and event-listeners
+We use inner class because this class is only useful within outer class.
+We can also create a normal class outside the class to implement event-listener and add such object as variable instance in the main class.
+
+R10.14 Object hierarchies
+declare in JTextArea: setColumns
+inherits from JTextComponent: setText
+inherits from JComponent: paintComponent
+
+R10.22 Graphic methods
+void drawItalianFlag(Graphics g, int xLeft, int yTop, int width, color cRight, color cLeft)
+g.setColor(cRight);
+g.fillRect(100, 100, 30, 60);
+g.setColor(cLeft);
+g.fillRect(160, 100, 30, 60);
+g.setColor(Color.BLACK);
+g.drawLine(130, 100, 160, 100);
+g.drawLine(130, 160, 160, 160);
+
+R11.2 Layout managers
+What is the advantage of a layout manager over telling the container “place this com-
+ponent at position (x, y)”?
+The user may reshape the outer frame and the inner components should automatically reshape to adjust to the outer frame.
+If you just tell the container (x, y) they may not reshape.
+
+R11.11 ButtonGroup
+Because there is Only one button can be selected by user in a radio button group.
+Check box can be both checked so they do not need a group.
+
+R11.19 Types of Events
+An ActionEvent represents the activation of a user interface component (such as a UICommand).
+A MouseEvent indicates that a mouse action occurred in a component.
+
+R11.20 Events
+ActionEvents Objects carry a source reference.
+MouseEvent objects carry the Mouse Event Type, the position of the mouse event and some other info about the mouse events.
+
+R11.21 ActionListener versus MouseListener
+Mouse Event have many different type so the Mouse Listener need to decide its action when different type of events happen.
+When an action event happen, the action listener just do what the programmer want it to do in the actionPerformed method. It do not need to decide which type of the event happen.
+
+
+

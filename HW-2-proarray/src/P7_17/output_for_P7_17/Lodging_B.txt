@@ -1,0 +1,8 @@
+Verna Pierce;Lodging_B;9;Thu Jan 31 01:04:06 CST 2013
+Mario Drake;Lodging_B;8;Mon Jun 29 17:10:46 CDT 2015
+Brett Sherman;Lodging_B;8;Sun Mar 23 18:04:06 CDT 2014
+Katrina Dean;Lodging_B;2;Sun Jun 30 13:10:46 CDT 2013
+Verna Pierce;Lodging_B;4;Thu Jan 31 01:04:06 CST 2013
+Rudolph Soto;Lodging_B;2;Wed Jan 07 01:30:46 CST 2015
+Alicia	Conner;Lodging_B;8;Fri Mar 29 22:57:26 CDT 2013
+Marie Mckenzie;Lodging_B;9;Mon May 25 23:50:46 CDT 2015

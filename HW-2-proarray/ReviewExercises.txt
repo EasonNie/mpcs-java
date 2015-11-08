@@ -1,0 +1,137 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R5.6 Parameters and return values.  The difference between an argument and a return value is that an argument is passed
+into a method, whereas a return value is the value returned from it.
+
+You can have n number of arguments, whereas you can only have one return value. By varying either the number and/or type of arguments,
+you change the method's signature, which means you may overload a method. Varying the return value only does not change the
+method's signature and therefore does not qualify the method for overloading.
+
+Since Java5, you can even specify a variable number of arguments aka varargs which looks something like this:
+ private String[] someMethod(int nGrade, String... strNickNames) {//implementation};
+Notice that the varargs parameter "String... strNickNames" must be listed last.  Calling this method would look something like this:
+ String[] strReturnValues = someMethod(99, "Jim", "Jamie", "James", "Jamey", "Jimmy", "Jimbo");
+
+R5.8 Pseudocode
+//Method: parseToNumArr(input)
+//for i from 0 to input.length - 1
+    //if input[i] is character
+        //input[i] = parseToNum(input[i])
+    //else
+        //continue
+
+//Method: parseToNum(char a)
+    //if a == A or B or C
+        //return 2
+    //else if a == D or E or F
+        //return 3
+    //else if a == G or H or I
+        //return 4
+    //else if a == J or K or L
+        //return 5
+    //else if a == M or N or O
+        //return 6
+    //else if a == P or R or S
+        //return 7
+    //else if a == T or U or V
+        //return 8
+    //else if a == W or X or Y
+        //return 9
+
+R5.10 Variable scope
+args:from line3 to line7
+i in line5: from line5 to line7
+b: from line6 to line7
+
+i in line10: from line10 to line14
+n:from line12 to line 14
+
+a:from line17 to line25
+b:from line19 to line 25
+n in line20:from line20 to line24
+
+Output:16
+
+R5.14 Pass by value versus pass by reference
+a and b are just local variables.They got their value by the input parameters rather than the reference.
+They will be cleared after the method finish.
+So, swaping the local variables can not change the value of variables in the main method.
+
+R6.6 Arrays, initialize and and out-of-bounds
+a.The index i should be greater than 0 and less than 9.
+b.The array values has not been constructed and initialized.
+
+R6.10 ArrayLists rules
+a.You should use Integer rather than int.
+b.Constructor on the right should be ArrayList<>() or ArrayList<Integer>()
+c.Constructor on the right should be ArrayList<Integer>()
+d.There is no elements in the ArrayList
+e.The arraylist values has not been constructed and initialized.
+
+R6.11 Index values
+Index of an array indicate the id of the elements in the array.
+The legal index is from 0 to length-1.
+If you visit an element in an array with the index that is not in 0 to length-1, it is a bounds error.
+
+R6.21 Rotate elements of array pseudocode
+//int tmp = values[0]
+//for i = 1 to length-1
+    //values[i - 1] = values[i]
+//values[length-1] = tmp
+
+R6.23 Binary insert algorithm
+//Method: binary insert(array, element)
+//start = 0; end = array.length - 1
+//While (start < end)
+    //mid = (start + end) / 2
+    //If array[mid] == element
+        //array.insert(mid, element)
+    //Else if array[mid] > element
+        //mid = end
+    //Else
+        //mid = start
+
+//If array[start] > element
+    //array.insert(array, start, element)
+//Else
+    //array.insert(array, start + 1, element)
+
+/***
+/* This is a non-recursive binary insert.
+/* If the while loop cannot find element, start will be equals to end at last.
+/* So, you can decide where to insert the element.
+/***
+
+R6.25 References to arrays
+The local variable values is a reference from the input.
+If you want to change the input array, you should directly ues values to visit and modify the input array.
+
+R7.6 Checked versus unchecked exceptions
+Unchecked exceptions are exceptions that indicate errors in your code.(e.g. IndexOutOfBoundsException)
+Checked exceptions indicate that something has gone wrong for some external reason beyond your control.
+(e.g. FileNotFoundException)
+
+R7.7 Checked versus unchecked exceptions
+The JVM will catch such Exception for you. And you can modify your code to completely avoid such exceptions.
+
+R7.9 Exceptions
+If the exception is an unchecked the exception.It will be ok.The compiler will still compile the source.
+However, the program will stop when an unchecked exception occurs.
+
+If the exception is an checked exception and does not have a matching catch clause.
+The compiler will check it and it will no compile the code util you handler such exception.
+
+R7.11 Exceptions
+They may be different. Exception objects declared in the catch clause can be a parent or superclass of the exceptions thrown during the execution.
+
+R7.14 Exceptions
+nextInt() will throw InputMismatchException and NoSuchElementException.
+next() will throw NoSuchElementException.
+They are unchecked exceptions.
+
+
+
+
+

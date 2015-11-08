@@ -1,0 +1,6 @@
+Tara Lewis;Conference_B;1;Wed May 15 06:04:06 CDT 2013
+Roosevelt Duncan;Conference_B;8;Sat Aug 09 15:24:06 CDT 2014
+Barry Jordan;Conference_B;10;Sun Oct 11 21:10:46 CDT 2015
+Tara Lewis;Conference_B;2;Tue Apr 21 06:30:46 CDT 2015
+Ira Price;Conference_B;2;Wed Jan 01 16:37:26 CST 2014
+Jimmie	Mack;Conference_B;10;Tue May 20 14:57:26 CDT 2014

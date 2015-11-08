@@ -1,0 +1,7 @@
+Steven Palmer;Conference_A;9;Mon Mar 18 09:10:46 CDT 2013
+Verna Pierce;Conference_A;2;Mon Apr 22 02:30:46 CDT 2013
+Lyle Cross;Conference_A;10;Sun Apr 27 11:24:06 CDT 2014
+Verna Pierce;Conference_A;3;Thu Oct 24 06:57:26 CDT 2013
+Frank Simpson;Conference_A;1;Sat Jul 05 22:04:06 CDT 2014
+Darrell Burns;Conference_A;3;Thu Apr 09 16:44:06 CDT 2015
+Harriet Barnes;Conference_A;6;Sat Nov 16 09:30:46 CST 2013

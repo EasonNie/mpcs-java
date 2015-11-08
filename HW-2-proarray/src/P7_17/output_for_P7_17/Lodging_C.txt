@@ -1,0 +1,10 @@
+Gina Montgomery;Lodging_C;9;Wed Oct 29 15:50:46 CDT 2014
+Verna Pierce;Lodging_C;1;Tue Oct 01 03:24:06 CDT 2013
+Mario Drake;Lodging_C;2;Wed Mar 06 18:24:06 CST 2013
+Jimmie	Mack;Lodging_C;1;Thu May 14 10:04:06 CDT 2015
+Rudolph Soto;Lodging_C;4;Fri Sep 18 17:37:26 CDT 2015
+Antoinette	Meyer;Lodging_C;6;Wed Oct 29 15:50:46 CDT 2014
+Frank Simpson;Lodging_C;7;Mon Mar 18 09:10:46 CDT 2013
+Brett Sherman;Lodging_C;7;Sat Oct 12 17:10:46 CDT 2013
+Clifford Moran;Lodging_C;7;Sun Jun 30 13:10:46 CDT 2013
+Horace Wood;Lodging_C;0;Mon Jan 13 06:24:06 CST 2014

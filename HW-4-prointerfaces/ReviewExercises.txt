@@ -1,0 +1,63 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R9.1 Superclass and subclass
+Superclass |Subclass
+
+Employee   |Manager
+Student    |GraduateStudent
+Person     |Student
+Employee   |Professor
+BankAccount|CheckingAccount
+Vehicle    |Car
+Vehicle    |Minivan
+Car        |Minivan
+Vehicle    |Truck
+
+R9.2 superclass and subclass
+The information (data and behaviors) subclass can inherit from the superclass is limited and it is time-consuming to create a new class whenever there is a new item.
+It is better to create a String type instance variable in SmallAppliance class to store the type of the appliance.
+
+R9.4 SavingsAccount
+Inherited Method:
+public void deposit(double amount)
+public double getBalance()
+Override:
+public void withdraw(double amount)
+public void monthEnd()
+Addition:
+public void setInterestRate(double rate)
+
+R9.6 Sandwich
+a and d are legal.
+b and c are illegal.
+
+R9.7 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located
+UML/R9_7.pdf
+
+R9.8 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located
+UML/R9_8.pdf
+
+R9.9 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located
+UML/R9_9.pdf
+
+R9.10 Casting
+(int)x is primitive data type casting.
+byte –> short –> int –> long –> float –> double
+Casting primitive data type from a higher one to a lower one might lose information.
+
+(BankAccount)x is reference type casting. It is assigning one Java object to another object.
+The two object should have inherit relation.
+
+R9.11 instanceof operator
+a.true;
+b.true;
+c.false;
+d.true;
+e.true;
+f.false;
+
+R9.14 Edible interface
+a is legal.
+c is allowed by the compiler but it might throws ClassCastException during the runtime.

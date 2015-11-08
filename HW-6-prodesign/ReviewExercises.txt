@@ -1,0 +1,145 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R12.1 OO Analysis and Design
+Step 1 Discover classes.
+Step 2 Discover responsibilities.
+Step 3 Describe relationships.
+
+R12.2 OO Analysis and Design
+Try to find Nouns in the requirement.
+
+R12.3 OO Analysis and Design
+Try to find Verbs in the requirement.
+
+R12.8 Relationships
+a.aggregation
+b.inheritance
+c.neither
+d.neither
+e.aggregation
+f.inheritance
+g.neither
+h.aggregation
+
+R12.11 CRC Cards (no need to draw them, just create a text version of the CRC card and put answers in ReviewExercises)
+       CashRegister
+enterPayment | Coin
+getPrice     | Coin
+       Coin
+getValue
+
+R12.13 UML Diagram - Use the UML tool in IntelliJ. Indicate to the grader where this is located.
+The UML diagram is in the UML directory.
+
+R12.14 UML Diagram and CRC - Use the UML tool in IntelliJ. Indicate to the grader where this is located.
+
+CRC
+Class CountrySet
+getLargestArea       | Country
+getLargestPopulation | Country
+getLargestPopdensity | Country
+loadCountrySet       | Country
+
+Class Country
+getArea       |
+getPopulation |
+getDensity    |
+loadCountry   |
+
+/**
+    Describes an country list for a set of countries.
+*/
+Class CountrySet {
+    Set<Country> set;
+
+    /**
+        Get the reference of the country with the largest area.
+        @return the country with the largest area.
+    */
+    public Country getLargestArea() {
+        ...
+    }
+
+    /**
+        Get the reference of the country with the largest population.
+        @return the country with the largest population.
+    */
+    public Country getLargestPopulation() {
+        ...
+    }
+
+    /**
+        Get the reference of the country with the largest population density.
+        @return the country with the largest population density.
+    */
+    public Country getLargestPopdensity() {
+        ...
+    }
+
+    /**
+        Load file data to the country set
+        @param file the file that contains the set of the countries.
+    */
+    public void loadCountrySet(File file) {
+        ...
+    }
+}
+
+/**
+    Describes an country.
+*/
+Class Country {
+    private double area;
+    private double population;
+    private double density;
+
+    /**
+        Get the value of area of this country
+        @return the area of this country
+    */
+    public double getArea() {
+        ...
+    }
+
+    /**
+        Get the value of population of this country
+        @return the population of this country
+    */
+    public double getPopulation() {
+        ...
+    }
+
+    /**
+        Get the value of population density of this country
+        @return the population density of this country
+    */
+    public double getDensity() {
+        ...
+    }
+
+    /**
+        Load file data to the country
+        @param file the file that contains country.
+    */
+    public void loadCountry(File file) {
+        ...
+    }
+
+}
+The UML diagram is in the UML directory.
+
+R12.16 Identifying objects from problem description
+Coin, VendingMachine, Product, User.
+
+R12.18 Identifying objects from problem description
+Customer, Product, Store, Invoice, LineItem, Address
+The UML diagram is in the UML directory.
+
+R12.19 imports and fully qualified names
+
+
+
+
+

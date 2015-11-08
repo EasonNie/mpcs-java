@@ -1,0 +1,5 @@
+Randolph Robertson;Dinner_B;5;Fri Jul 12 02:57:26 CDT 2013
+Christopher Ray;Dinner_B;0;Wed Aug 22 01:10:46 CDT 2012
+Clifford Moran;Dinner_B;5;Thu Aug 15 20:17:26 CDT 2013
+Jeffrey Holloway;Dinner_B;0;Wed Aug 26 14:04:06 CDT 2015
+Hilda Bennett;Dinner_B;7;Mon Sep 01 18:57:26 CDT 2014

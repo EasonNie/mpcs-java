@@ -1,0 +1,49 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R8.1 Encapsulation
+Encapsulation is that you specify a set of public methods and hide the implementation details.
+It is useful because other users can use your classed without having to know their implementation.
+
+R8.4 Public interface
+Public interface of a class consists of all methods that a user of the class may want to apply to its objects.
+The implementation of the methods and the class is invisible by the users.
+
+R8.7 Instance versus static
+Instance variable belong to an object of this class.
+Static variable belong to class.
+Instance methods are invoked on an object.
+Static methods are not invoked on an object but a class.
+
+R8.8 Mutator and accessor
+A mutator method modifies the object on which it operates.
+A accessor method queries the object for some information without changing it.
+
+R8.9 Implicit parameter
+The object on which a method is invoked is called the implicit parameter.
+Parameters that are explicitly mentioned in the method are called explicit parameters.
+
+R8.10 Implicit parameter
+An instance method has one implicit parameter and zero or more explicit parameters.
+Static methods do not have implicit parameter.
+
+
+R8.12 Constructors
+A constructor initializes the instance variables of an object.
+
+R8.16 Instance variables
+Users can read the class declaration.
+However, they can not read or change an instance variable if there is no implementation of public interface for the user to do that.
+
+R8.19 The this reference
+This refer to the object itself. It is the implicit parameter. This reference can make your programs easier to read.
+
+R8.20 Zero, null, false, empty String
+Null means the value is unknown.
+Zero means the value is 0.
+False means the boolean value is false.
+Empty String is a string with length()=0.
+
+
+
