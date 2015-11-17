@@ -1,0 +1,53 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R13.1 Terms
+a. Recursion: the method invoke itself
+b. Iteration: repeat the same procedure
+c. Infiniterecursion: the recursion never stop
+d. Recursive helper method: modified the original problem such that the original problem can be easily solved using recursive helper method
+
+R13.2 Smallest value
+//find-small(array, start, end)
+    if (start == end)
+        return array[start]
+    if (start + 1 = end)
+        return min{array[start, end]}
+    else
+        return min{array[start], find-small(array, start + 1, end)}
+
+R13.3 Sort array of numbers
+//sort(array, start, end)
+    if (start == end)
+        return
+    else
+        index = find-smallest(array, start, end)
+        swap array[start] and array[index]ß
+        sort(array, start + 1, end)
+
+R13.6 Exponents recursively
+x^n = x * x^(n-1) when n > 1
+x^n = 1           when n = 0  (terminate)
+
+//exp(x, n)
+    if (n == 1)
+        return 1;
+    else
+        return x * exp(x, n - 1)
+
+R13.8 Factorial recursively
+n! = n * (n - 1)!   when n > 1
+n! = 1              when n == 1
+
+//fact(n)
+    if (n == 1)
+        return 1;
+    else
+        return n * fact(n - 1)
+
+
+
+
+
+
